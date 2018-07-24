@@ -19,4 +19,13 @@ email: "andre.goersch@gmail.com" # This is my real email address. Please don't e
 #sass:
 #    style: compressed
 
-exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - src
+  - tailwind.js
