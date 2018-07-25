@@ -279,6 +279,7 @@ module.exports = {
     '5xl': '3rem',      // 48px
     '6xl': '4rem',      // 64px
     '7xl': '6rem',      // 96px
+    '8xl': '8rem',      // 128px
   },
 
 
@@ -951,6 +952,7 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    require('tailwindcss-flexbox-order')(),
   ],
 
 

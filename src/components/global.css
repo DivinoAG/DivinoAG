@@ -5,3 +5,10 @@ body {
     font-body
     leading-normal;
 }
+
+.shadow-blue {
+  text-shadow:
+    #191e38 0 0 80px,
+    #191e38 0 0 40px,
+    #191e38 0 0 20px;
+}

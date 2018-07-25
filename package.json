@@ -14,7 +14,8 @@
     "gulp-util": "^3.0.8",
     "postcss-font-magician": "^2.2.1",
     "postcss-import": "^11.1.0",
-    "tailwindcss": "^0.6.1"
+    "tailwindcss": "^0.6.1",
+    "tailwindcss-flexbox-order": "^1.0.0"
   },
   "scripts": {
     "build": "gulp css",

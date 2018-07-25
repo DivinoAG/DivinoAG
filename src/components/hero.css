@@ -1,8 +1,10 @@
 .hero {
   @apply
     flex
+    flex-col
     justify-center
     items-center
     w-full
-    h-screen;
+    h-screen
+    p-12;
 }
