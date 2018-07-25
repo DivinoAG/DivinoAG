@@ -40,12 +40,17 @@ gulp.task("css", ["jekyll-build"], function() {
   const postcss = require("gulp-postcss");
   const purgecss = require("gulp-purgecss");
   const tailwindcss = require("tailwindcss");
+  const fontmagician = require('postcss-font-magician');
 
   browserSync.notify("Compiling CSS...");
 
   return gulp
     .src(mainCSS)
     .pipe(postcss([atimport(), tailwindcss(tailwindConfig)]))
+    .pipe(
+      postcss([
+        fontmagician({ display: 'swap' })
+      ]))
     .pipe(
       purgecss({
         content: ["_site/**/*.html"],

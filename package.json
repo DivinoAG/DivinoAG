@@ -12,6 +12,7 @@
     "gulp-postcss": "^7.0.0",
     "gulp-purgecss": "^0.20.0",
     "gulp-util": "^3.0.8",
+    "postcss-font-magician": "^2.2.1",
     "postcss-import": "^11.1.0",
     "tailwindcss": "^0.6.1"
   },
