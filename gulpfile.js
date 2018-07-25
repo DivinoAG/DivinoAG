@@ -90,6 +90,7 @@ gulp.task("serve", ["css"], () => {
     [
       mainCSS,
       tailwindConfig,
+      "src/components/*.css",
       "**/*.html",
       "**/*.md",
       "**/*.yml",

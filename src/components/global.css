@@ -1,0 +1,7 @@
+body {
+  @apply
+    bg-indigo-darkest
+    text-white
+    font-body
+    leading-normal;
+}

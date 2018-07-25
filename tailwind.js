@@ -167,6 +167,7 @@ module.exports = {
   */
 
   screens: {
+    'tn': '375px',
     'sm': '576px',
     'md': '768px',
     'lg': '992px',
@@ -226,6 +227,23 @@ module.exports = {
       'Liberation Mono',
       'Courier New',
       'monospace',
+    ],
+    'display': [
+      'Montserrat',
+      'montserrat',
+      'Source Sans',
+      'Helvetica Neue',
+      'Helvetica',
+      'Arial',
+      'sans-serif',
+    ],
+    'body': [
+      'Lato',
+      'Trebuchet MS',
+      'Helvetica Neue',
+      'Helvetica',
+      'Arial',
+      'sans-serif',
     ]
   },
 
@@ -259,6 +277,8 @@ module.exports = {
     '3xl': '1.875rem',  // 30px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px
+    '6xl': '4rem',      // 64px
+    '7xl': '6rem',      // 96px
   },
 
 
@@ -302,6 +322,7 @@ module.exports = {
   */
 
   leading: {
+    'negative': 0.75,
     'none': 1,
     'tight': 1.25,
     'normal': 1.5,

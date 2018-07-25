@@ -1,0 +1,8 @@
+.hero {
+  @apply
+    flex
+    justify-center
+    items-center
+    w-full
+    h-screen;
+}
