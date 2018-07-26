@@ -4,10 +4,24 @@ title: "Home Page"
 fulltitle: "My New Website | Update Coming August 2004" 
 excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
 ---
-<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
-<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
 
-<section class="hero md:flex-row">
+<nav class="header-nav">
+  <ul>
+    <li>
+      <a href="#hero">
+          <img src="{{ site.baseurl }}/assets/img/ag-logo.svg" alt="Andre Goersch" class="w-8 max-w-xs">
+      </a>
+    </li>
+    <li>
+      <a href="#">Works</a>
+    </li>
+    <li>
+      <a href="#">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<section id="hero" class="hero md:flex-row">
   <div class="m-6 md:m-12 md:w-1/2">
     <img src="{{ site.baseurl }}/assets/img/ag-logo.svg" alt="Andre Goersch" class="w-full">
   </div>
@@ -19,6 +33,7 @@ excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead
     <h2 class="leading-none font-display font-medium text-xl md:text-2xl">User Experience and Interface Design</h2>
   </div>
 </section>
+
 <section class="h-screen">
   <p class="mt-16 text-lg">With more than 20 years of professional design background, Andre understands all the different aspects required to create great experiences. A specialist on his field, but with the know-how to bridge teams such as development and research on equal terms.</p>
 </section>

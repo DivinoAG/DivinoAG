@@ -46,10 +46,11 @@ gulp.task("css", ["jekyll-build"], function() {
 
   return gulp
     .src(mainCSS)
-    .pipe(postcss([atimport(), tailwindcss(tailwindConfig)]))
     .pipe(
       postcss([
-        fontmagician({ display: 'swap' })
+        atimport(),
+        tailwindcss(tailwindConfig),
+        fontmagician()
       ]))
     .pipe(
       purgecss({

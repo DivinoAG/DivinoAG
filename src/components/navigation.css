@@ -1,0 +1,35 @@
+nav.header-nav {
+  @apply
+    fixed
+    w-full
+    bg-indigo-darkest-90
+    z-40;
+  background: linear-gradient(180deg, rgba(25,30,56,1) 0%, rgba(25,30,56,0.85) 100%); }
+
+nav.header-nav ul {
+  @apply
+    list-reset
+    flex
+    items-center
+    px-6
+    py-4;
+}
+
+nav.header-nav li {
+  @apply inline-block;
+}
+
+nav.header-nav li:not(:last-child) {
+  @apply mr-10;
+}
+
+nav.header-nav a,
+nav.header-nav a:visited {
+  @apply
+    font-display
+    text-sm
+    text-white
+    uppercase
+    no-underline
+    outline-none;
+}
