@@ -10,6 +10,7 @@ nav.header-nav ul {
   @apply
     list-reset
     flex
+    flex-wrap
     items-center
     px-6
     py-4;
