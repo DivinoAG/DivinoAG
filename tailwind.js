@@ -238,7 +238,7 @@ module.exports = {
       'sans-serif',
     ],
     'body': [
-      'Esteban',
+      'Ovo',
       'Trebuchet MS',
       'Helvetica Neue',
       'Helvetica',

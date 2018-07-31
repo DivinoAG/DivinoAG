@@ -6,6 +6,10 @@ body {
     leading-normal;
 }
 
+p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
 .shadow-blue {
   text-shadow:
     #191e38 0 0 80px,
