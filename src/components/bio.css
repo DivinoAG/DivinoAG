@@ -1,0 +1,16 @@
+.bio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+@screen md {
+  .bio {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.bio article {
+  justify-self: center;
+  align-self: center;
+}
