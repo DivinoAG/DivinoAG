@@ -1,7 +1,7 @@
 # Site settings
 title: Andre Goersch Portfolio
 tagline: User Experience and Interface Designer
-url: "http://andregoersch.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+#url: "http://andregoersch.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
@@ -18,6 +18,18 @@ email: "andre.goersch@gmail.com" # This is my real email address. Please don't e
 # Use this for production
 #sass:
 #    style: compressed
+
+cloudinary:
+  cloud_name: divinoag
+  verbose: true
+  only_prod: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
 
 exclude:
   - Gemfile
