@@ -49,8 +49,7 @@ gulp.task("css", ["jekyll-build"], function() {
     .pipe(
       postcss([
         atimport(),
-        tailwindcss(tailwindConfig),
-        fontmagician()
+        tailwindcss(tailwindConfig)
       ]))
     .pipe(
       purgecss({
@@ -63,6 +62,10 @@ gulp.task("css", ["jekyll-build"], function() {
         ]
       })
     )
+    .pipe(
+      postcss([
+        fontmagician()
+      ]))
     .pipe(
       autoprefixer({
         "browsers": [

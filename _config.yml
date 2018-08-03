@@ -19,18 +19,6 @@ email: "andre.goersch@gmail.com" # This is my real email address. Please don't e
 #sass:
 #    style: compressed
 
-cloudinary:
-  cloud_name: divinoag
-  verbose: true
-  only_prod: true
-  presets:
-    default:
-      min_width: 320
-      max_width: 1600
-      fallback_max_width: 800
-      steps: 5
-      sizes: "(min-width: 50rem) 50rem, 90vw"
-
 exclude:
   - Gemfile
   - Gemfile.lock

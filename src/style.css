@@ -29,6 +29,7 @@
   */
 
 @import "components/global";
+@import "components/dynamic";
 @import "components/navigation";
 @import "components/hero";
 @import "components/bio";

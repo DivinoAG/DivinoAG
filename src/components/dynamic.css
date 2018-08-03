@@ -1,0 +1,14 @@
+/* purgecss ignore */
+
+.cld-responsive {
+	transition: opacity 300ms;
+}
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+}
