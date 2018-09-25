@@ -1,8 +1,6 @@
-<div class="mediabox">
-  <img
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-    data-src="http://res.cloudinary.com/divinoag/image/upload/q_auto,w_auto,dpr_auto,c_scale/{{ include.file }}"
-    sizes="100vw"
-    class="cld-responsive lazyload"
-    alt="{{ include.alt }}">
-</div>
+<img
+  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  data-src="http://res.cloudinary.com/divinoag/image/upload/q_auto,w_auto,dpr_auto{% if include.settings %},{{ include.settings }}{% endif %}/{{ include.file }}"
+  sizes="100vw"
+  class="cld-responsive lazyload {% if include.class %}{{ include.class }}{% endif %}"
+  alt="{{ include.alt }}">

@@ -1,0 +1,24 @@
+.work {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 0.5rem;
+  grid-auto-flow: row dense;
+  background: black;
+}
+
+@screen md {
+  .work {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+  }
+}
+
+.work .large {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.work .medium {
+  grid-column-end: span 2;
+}

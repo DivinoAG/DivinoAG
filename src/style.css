@@ -33,6 +33,7 @@
 @import "components/navigation";
 @import "components/hero";
 @import "components/bio";
+@import "components/work";
 
  /**
   * This injects all of Tailwind's utility classes, generated based on your
